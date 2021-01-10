@@ -11,7 +11,7 @@ namespace Open_Lab_04._08
             for (int i = 0; i < strings.Length; i++)
                 if (strings[i].Length == 4)
                     retl.Add(strings[i]);
-            string[] reta = retl.ToArray();
+             string[] reta = retl.ToArray();
             return reta;
         }
     }
